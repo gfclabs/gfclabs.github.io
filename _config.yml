@@ -1,0 +1,27 @@
+# SITE CONFIGURATION
+title: GFC Labs
+author:
+  name: George Chamoun
+  email: george.chamoun@icloud.com
+description: George Chamoun's personal labratory.
+url: "https://gfclabs.github.io" 
+
+minima:
+  date_format: "%b %-d, %Y"
+  social_links: 
+    github: gfclabs
+    twitter: chamoun_george
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - .sass-cache/
+  - .jekyll-cache/
+
+include: ['_pages']
+
+  

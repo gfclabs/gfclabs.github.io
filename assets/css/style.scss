@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize",
+  "custom/_variables",
+  "custom/_form",
+  "custom/_modal",
+  "custom/_btn",
+  "custom/profile_pic";
