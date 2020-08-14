@@ -6,7 +6,7 @@ nav-include: true
 nav-order: 4
 ---
 
-Fill in the form or [email me](mailto:{{site.email}}) to get in touch. 
+Fill in the form or [email me](mailto:{{site.author.email}}) to get in touch. 
 
 {% include form.html %}
 
