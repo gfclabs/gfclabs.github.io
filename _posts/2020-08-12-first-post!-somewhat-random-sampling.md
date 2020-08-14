@@ -55,7 +55,7 @@ In the example, I will provide this visualization via a likelihood ratio for dif
 
 #### Example
 
-I picked an example where the *source* distribution was skewed, and the *target* distribution was not.  
+I picked an example where the *source* distribution was skewed and the *target* distribution was not.  
 I thought the result would be more visually pleasing if I could eliminate the skewed signal when sampling. 
 I also decided to use parametric distributions because they are easy to generate and many of them have closed-form log likelihoods. 
 
@@ -71,7 +71,7 @@ This way, I could test if the sampling could remove the skewed signal from the W
     <img src="/assets/images/distribution_compare.png" alt="drawing" width="500"/>
 </div>
 
-Next, I computed the weighted sampling variable $p(x)*U$ for all observations in the dataset, and sorted. 
+Next, I computed the weighted sampling variable $p(x)*U$ for all observations in the dataset and sorted. 
 Before I sampled, however, I plotted the relative propensity function because I was curious what it looked like for this problem. 
 I was amazed at how large some of the values were, so much so that I could only find a small area of the chart that would display well on a linear axis scale. 
  
