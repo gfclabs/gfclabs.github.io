@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 ---
 
 As a first post, I thought I would re-visit some fun work I did in February of 2018. 
