@@ -50,12 +50,12 @@ The first step is exactly the same, sort the observations, $x_1, x_2, ..., x_i$,
 However, unlike the uniform case, we can't just take any $n$ cases and be confident they are indeed from the desired target distribution. 
 We need to perform a test to make sure the top $n$ cases we select are indeed from $t(x)$. 
 The test you perform is really up to you. 
-What I did was increment $n$ by some pre-selected value (depending on the problem) and check the likelihood until we maximized it for the target distribution. 
+What I did was increment $n$ by some pre-selected value (depending on the problem) and check the likelihood until we maximized it for the *target* distribution. 
 In the example, I will provide this visualization via a likelihood ratio for different sample sizes.  
 
 #### Example
 
-I picked an example where the source distribution was skewed. 
+I picked an example where the *source* distribution was skewed, and the *target* distribution was not.  
 I thought the result would be more visually pleasing if I could eliminate the skewed signal when sampling. 
 I also decided to use parametric distributions because they are easy to generate and many of them have closed-form log likelihoods. 
 
