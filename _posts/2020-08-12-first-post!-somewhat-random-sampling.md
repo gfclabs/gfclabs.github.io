@@ -42,11 +42,11 @@ In order to sample from this bunch, we need to add a certain degree of pseudo-ra
 A commonly used technique to sample from a population and preserve the underlying distribution is to sample using a uniform random variable. 
 If we want to generalize this technique to the application at hand, imagine we set $s(x)=t(x)$ which makes $p(x)=1$. 
 Let $U$ be the uniformly distributed random variable we use for sampling. 
-Sorting by $p(x)*U$, or just $U$ in this case, we can select the top $n$ data points and be fairly confident that they are indeed a random sample from the desired distribution. 
+Sorting by $p(x) * U$, or just $U$ in this case, we can select the top $n$ data points and be fairly confident that they are indeed a random sample from the desired distribution. 
 
 
 The procedure I propose for when $s(x) \ne t(x)$ is basically the same, but requires one additional step. 
-The first step is exactly the same, sort the observations, $x_1, x_2, ..., x_i$, by $p(x)*U$. 
+The first step is exactly the same, sort the observations, $x_1, x_2, ..., x_i$, by $p(x) * U$. 
 However, unlike the uniform case, we can't just take any $n$ cases and be confident they are indeed from the desired target distribution. 
 We need to perform a test to make sure the top $n$ cases we select are indeed from $t(x)$. 
 The test you perform is really up to you. 
